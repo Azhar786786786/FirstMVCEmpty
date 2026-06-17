@@ -14,10 +14,12 @@ namespace FirstMVCEmpty.Controllers
         //}
         public IActionResult Index()
         {
+            ViewBag.Title = "Index";
             return View();
         }
         public IActionResult Name()
         {
+            ViewBag.Title = "Name";
             return View();
         }
     }
