@@ -4,13 +4,21 @@ namespace FirstMVCEmpty.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        //public string Index()
+        //{
+        //    return "Azhar hussain is my name.";
+        //}
+        //public string Name()
+        //{
+        //    return "This is my name";
+        //}
+        public IActionResult Index()
         {
-            return "Azhar hussain is my name.";
+            return View();
         }
-        public string Name()
+        public IActionResult Name()
         {
-            return "This is my name";
+            return View();
         }
     }
 }
